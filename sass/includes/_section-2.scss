@@ -1,0 +1,35 @@
+.section-2 {
+    text-align: center;
+    background-color: #DE412E;
+    padding-top: 40px;
+ 
+    .sectio-2-header_wrapp {
+        
+           display: flex;
+            justify-content: center;
+        .section-2-header {
+            width: 365px;
+            h2 {
+                font-size: 28px;
+                color: #fff;
+                font-weight: bold;
+                line-height: 50px;
+            }
+            h2.upper {
+                text-transform: uppercase;
+                display: block !important;
+            }
+        }
+    }
+    
+    
+    .section-2-img {
+        background-image: url(../img/bag.png);
+        background-position: center;
+        height: 500px;
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    
+}

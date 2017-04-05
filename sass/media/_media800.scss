@@ -1,0 +1,26 @@
+@media screen and (min-width: 800px) {
+   .wrapper-content {
+        width: 1000px; 
+       margin: 0 auto;
+    }
+    //header
+    .logo-wrapp {
+        display: block !important;
+        margin-left: 115px;
+    }
+    .content-wrapp {
+        display: block !important;
+        width: 365px;
+        float: left;
+    }
+    .main-forms {
+        float: right;
+    }
+    .santa-wrapp {
+        display: block !important;
+    }
+    
+    .section-2-header {
+        width: 1000px !important;
+    }
+}

@@ -1,0 +1,326 @@
+.head {
+  padding: 30px 0;
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  .head .forest {
+    background-image: url(../img/Snow.png);
+    background-repeat: repeat-x;
+    height: 245px;
+    width: 100%;
+    position: absolute;
+    bottom: 0; }
+  .head .snow {
+    background-image: url(../img/Snowflakes.png);
+    height: 100%;
+    position: relative; }
+    .head .snow .logo-wrapp {
+      display: flex;
+      justify-content: center; }
+      .head .snow .logo-wrapp .logo {
+        background-image: url(../img/logo.png);
+        background-repeat: no-repeat;
+        height: 145px;
+        width: 132px; }
+    .head .snow .content-wrapp {
+      display: flex;
+      justify-content: center; }
+      .head .snow .content-wrapp .content {
+        width: 365px; }
+        .head .snow .content-wrapp .content .border-top {
+          background-image: url(../img/top.png);
+          background-repeat: no-repeat;
+          height: 65px;
+          width: 365px;
+          margin-bottom: 10px; }
+        .head .snow .content-wrapp .content .content-text {
+          width: 365px;
+          text-align: center; }
+          .head .snow .content-wrapp .content .content-text h1 {
+            margin-bottom: 10px;
+            font-size: 25px;
+            color: #fff;
+            font-weight: bold; }
+            .head .snow .content-wrapp .content .content-text h1 span.smal {
+              display: block; }
+          .head .snow .content-wrapp .content .content-text p {
+            color: #fff;
+            font-size: 20px; }
+            .head .snow .content-wrapp .content .content-text p span.smal {
+              display: block;
+              font-weight: bold;
+              text-transform: uppercase; }
+        .head .snow .content-wrapp .content .border-bottom {
+          margin-top: 30px;
+          width: 365px;
+          background-image: url(../img/bot.png);
+          background-repeat: no-repeat;
+          height: 65px; }
+    .head .snow .form-wrapp {
+      display: flex;
+      justify-content: center; }
+      .head .snow .form-wrapp .main-form-wrapp {
+        width: 365px;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        background-image: url(../img/border.png);
+        padding: 10px 0;
+        border-radius: 10px; }
+        .head .snow .form-wrapp .main-form-wrapp .main-form {
+          text-align: center;
+          width: 345px;
+          background-color: #fff;
+          border-radius: 10px;
+          padding-top: 20px; }
+          .head .snow .form-wrapp .main-form-wrapp .main-form h2 {
+            font-size: 30px;
+            color: #df4127;
+            font-weight: bold;
+            padding: 0;
+            margin: 0; }
+          .head .snow .form-wrapp .main-form-wrapp .main-form .main-forms {
+            padding-top: 40px;
+            background-color: #fff;
+            padding-bottom: 20px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px; }
+            .head .snow .form-wrapp .main-form-wrapp .main-form .main-forms input {
+              width: 230px;
+              margin-bottom: 10px;
+              border-radius: 5px;
+              padding: 10px; }
+            .head .snow .form-wrapp .main-form-wrapp .main-form .main-forms .button {
+              width: 255px;
+              background-color: #80CF38;
+              border-radius: 5px;
+              border-bottom: 5px solid #6DB230;
+              padding: 10px;
+              margin-top: 20px;
+              border: none; }
+              .head .snow .form-wrapp .main-form-wrapp .main-form .main-forms .button p {
+                padding: 0;
+                margin: 0;
+                color: #fff; }
+              .head .snow .form-wrapp .main-form-wrapp .main-form .main-forms .button p.head-button {
+                font-size: 25px;
+                text-transform: uppercase; }
+              .head .snow .form-wrapp .main-form-wrapp .main-form .main-forms .button p.desc-button {
+                font-size: 17px; }
+            .head .snow .form-wrapp .main-form-wrapp .main-form .main-forms .button:hover {
+              cursor: pointer; }
+    .head .snow .santa-wrapp {
+      display: flex;
+      justify-content: center;
+      padding: 30px 0;
+      padding-bottom: 0; }
+      .head .snow .santa-wrapp .santa {
+        height: 180px;
+        width: 400px;
+        background-image: url(../img/santa.png);
+        background-repeat: no-repeat; }
+
+.section-2 {
+  text-align: center;
+  background-color: #DE412E;
+  padding-top: 40px; }
+  .section-2 .sectio-2-header_wrapp {
+    display: flex;
+    justify-content: center; }
+    .section-2 .sectio-2-header_wrapp .section-2-header {
+      width: 365px; }
+      .section-2 .sectio-2-header_wrapp .section-2-header h2 {
+        font-size: 28px;
+        color: #fff;
+        font-weight: bold;
+        line-height: 50px; }
+      .section-2 .sectio-2-header_wrapp .section-2-header h2.upper {
+        text-transform: uppercase;
+        display: block !important; }
+  .section-2 .section-2-img {
+    background-image: url(../img/bag.png);
+    background-position: center;
+    height: 500px;
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat; }
+
+.foot {
+  background-color: #81D9E0;
+  background-image: url(../img/foot-snow.png);
+  background-size: cover;
+  padding-top: 30px;
+  height: 900px;
+  overflow: hidden; }
+  .foot .foot-wrapp .foot-head-wrapp {
+    display: flex;
+    justify-content: center; }
+    .foot .foot-wrapp .foot-head-wrapp .foot-head {
+      height: 90px;
+      width: 400px;
+      background-image: url(../img/foot-head.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      z-index: 10;
+      display: flex;
+      justify-content: center; }
+      .foot .foot-wrapp .foot-head-wrapp .foot-head h2 {
+        text-align: center;
+        font-size: 28px;
+        color: #fff;
+        width: 300px; }
+  .foot .foot-wrapp .foot-blocks {
+    position: relative; }
+    .foot .foot-wrapp .foot-blocks .foot-block {
+      padding: 15px 35px;
+      text-align: center;
+      width: 150px;
+      height: 150px;
+      background-color: #fff;
+      border-radius: 50%;
+      position: relative;
+      color: #DF4127;
+      position: absolute; }
+      .foot .foot-wrapp .foot-blocks .foot-block .foot-line {
+        width: 4px;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-right: auto;
+        margin-left: auto;
+        visibility: hidden; }
+      .foot .foot-wrapp .foot-blocks .foot-block h3 {
+        font-size: 20px;
+        padding: 10px;
+        margin: 0;
+        font-weight: bold; }
+      .foot .foot-wrapp .foot-blocks .foot-block p {
+        font-size: 9px; }
+      .foot .foot-wrapp .foot-blocks .foot-block .foot-logo {
+        background-position: center;
+        height: 60px;
+        background-repeat: no-repeat; }
+      .foot .foot-wrapp .foot-blocks .foot-block .foot-block-head img {
+        position: absolute;
+        top: -45px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto; }
+    .foot .foot-wrapp .foot-blocks .red {
+      background-color: #DF4127 !important;
+      color: #fff; }
+    .foot .foot-wrapp .foot-blocks .block-1 {
+      top: 180px;
+      left: 115px;
+      margin-top: 200px; }
+      .foot .foot-wrapp .foot-blocks .block-1 img {
+        height: 25px;
+        width: 130px;
+        top: -25px !important; }
+      .foot .foot-wrapp .foot-blocks .block-1 .foot-logo {
+        background-image: url(../img/fan.png);
+        background-position: center;
+        height: 60px;
+        background-repeat: no-repeat; }
+      .foot .foot-wrapp .foot-blocks .block-1 .foot-line {
+        height: 330px;
+        top: -330px; }
+    .foot .foot-wrapp .foot-blocks .block-2 {
+      top: 40px;
+      left: 115px; }
+      .foot .foot-wrapp .foot-blocks .block-2 img {
+        height: 35px;
+        width: 135px;
+        top: -30px !important; }
+      .foot .foot-wrapp .foot-blocks .block-2 .foot-logo {
+        background-image: url(../img/ed.png); }
+      .foot .foot-wrapp .foot-blocks .block-2 .foot-line {
+        height: 200px;
+        top: -200px; }
+    .foot .foot-wrapp .foot-blocks .block-3 {
+      top: 205px;
+      left: 270px; }
+      .foot .foot-wrapp .foot-blocks .block-3 img {
+        height: 35px;
+        width: 135px;
+        top: -35px !important; }
+      .foot .foot-wrapp .foot-blocks .block-3 .foot-logo {
+        background-image: url(../img/spirit.png);
+        height: 65px; }
+      .foot .foot-wrapp .foot-blocks .block-3 .foot-line {
+        height: 375px;
+        top: -375px; }
+    .foot .foot-wrapp .foot-blocks .block-4 {
+      top: 545px;
+      left: 270px; }
+      .foot .foot-wrapp .foot-blocks .block-4 img {
+        height: 35px;
+        width: 150px;
+        top: -30px !important; }
+      .foot .foot-wrapp .foot-blocks .block-4 .foot-logo {
+        background-image: url(../img/time.png); }
+      .foot .foot-wrapp .foot-blocks .block-4 .foot-line {
+        height: 200px;
+        top: -200px; }
+
+@media screen and (min-width: 640px) {
+  .content-text {
+    text-align: left !important; }
+    .content-text h1 span.smal {
+      display: inline !important; }
+  .foot {
+    height: 500px; }
+  .foot-head {
+    width: 600px !important;
+    padding-top: 15px; }
+    .foot-head h2 {
+      width: 500px !important; }
+  .foot-blocks-wrapp {
+    display: flex;
+    justify-content: center; }
+    .foot-blocks-wrapp .foot-blocks {
+      width: 640px; }
+  .foot-line {
+    visibility: visible !important; }
+  .block-1 {
+    top: -40px !important;
+    left: -40px !important; }
+  .block-2 {
+    top: 20px !important;
+    left: 135px !important; }
+  .block-3 {
+    top: 160px !important;
+    left: 300px !important; }
+  .block-4 {
+    top: 35px !important;
+    left: 480px !important; } }
+
+@media screen and (min-width: 800px) {
+  .wrapper-content {
+    width: 1000px;
+    margin: 0 auto; }
+  .logo-wrapp {
+    display: block !important;
+    margin-left: 115px; }
+  .content-wrapp {
+    display: block !important;
+    width: 365px;
+    float: left; }
+  .main-forms {
+    float: right; }
+  .santa-wrapp {
+    display: block !important; }
+  .section-2-header {
+    width: 1000px !important; } }
+
+@font-face {
+  font-family: "Altair";
+  src: url("../font/Altair-Bold%20Trial.ttf") format("truetype"); }
+
+body, p, h1, h2, h3, h4, a {
+  padding: 0;
+  margin: 0;
+  font-family: Altair !important; }

@@ -1,0 +1,166 @@
+ 
+.head {
+    padding: 30px 0;
+//    height: 1000px;
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+//    padding-bottom: 30p;
+    .forest {
+        background-image: url(../img/Snow.png);
+        background-repeat: repeat-x; 
+        height: 245px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;    
+    }
+    
+    .snow {
+        background-image: url(../img/Snowflakes.png);
+        height: 100%;
+        position: relative;
+        
+        .logo-wrapp {
+            display: flex;
+            justify-content: center;
+            .logo {
+                background-image: url(../img/logo.png);
+                background-repeat: no-repeat;
+                height: 145px;
+                width: 132px;
+            }
+        }
+        .content-wrapp {
+            display: flex;
+            justify-content: center;
+           .content {
+                width: 365px;
+    //            display: flex;
+    //            justify-content: center;
+                .border-top {
+                    background-image: url(../img/top.png);
+                    background-repeat: no-repeat;
+                    height: 65px;
+                    width: 365px;
+                    margin-bottom: 10px;
+                }
+                .content-text {
+                    width: 365px;
+                    text-align: center;
+                    h1 {
+                        margin-bottom: 10px;
+                         font-size: 25px;
+                         color: #fff;
+                         font-weight: bold;
+                        span.smal {
+                            display: block;
+                        }
+                     }
+
+                     p {
+                         color: #fff;
+                         font-size: 20px;
+                         span.smal {
+                            display: block;
+                             font-weight: bold;
+                             text-transform: uppercase;
+                        }
+                     }
+                }
+                .border-bottom {
+                    margin-top: 30px;
+                    width: 365px;
+                    background-image: url(../img/bot.png);
+                    background-repeat: no-repeat;
+                    height: 65px;
+                }
+            } 
+        }
+        
+        .form-wrapp {
+            display: flex;
+            justify-content: center;
+            .main-form-wrapp {
+                width: 365px;
+                display: flex;
+                justify-content: center;
+                background-color: #fff;
+                background-image: url(../img/border.png);
+//                background-repeat: no-repeat;
+                padding: 10px 0;
+                border-radius: 10px;
+                    .main-form {
+                    text-align: center;
+                    width: 345px;
+                    background-color: #fff;
+                    border-radius: 10px;
+                    padding-top: 20px;
+                    h2 {
+                        font-size: 30px;
+                        color: #df4127;
+                        font-weight: bold;
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    .main-forms {
+                        padding-top: 40px;
+                        background-color: #fff;
+                        padding-bottom: 20px;
+                        border-bottom-left-radius: 10px;
+                        border-bottom-right-radius: 10px;
+                        input {
+                            width: 230px;
+                            margin-bottom: 10px;
+                            border-radius: 5px;
+                            padding: 10px;
+                        }
+                        .button {
+                            width: 255px;
+                            background-color: #80CF38;
+                            border-radius: 5px;
+                            border-bottom: 5px solid #6DB230;
+                            padding: 10px;
+                            margin-top: 20px;
+                            border: none;
+                            p {
+                                padding: 0;
+                                margin: 0;
+                                color: #fff;
+                            }
+
+                            p.head-button {
+                                font-size: 25px;
+                                text-transform: uppercase;
+                            }
+                            p.desc-button {
+                                font-size: 17px;
+                            }
+                        }
+                        .button:hover {
+                            cursor: pointer;
+                            
+                        }
+                    }
+                }
+            }
+            
+        }
+        
+        
+        .santa-wrapp {
+            display: flex;
+            justify-content: center;
+            padding: 30px 0;
+            padding-bottom: 0;
+            .santa {
+                height: 180px;
+                width: 400px;
+                background-image: url(../img/santa.png);
+                background-repeat: no-repeat;
+            } 
+        } 
+        
+    }
+}
